@@ -1,0 +1,14 @@
+Billy Rick:
+  name        : "Rafal Truszkowski"
+  bio         : "As a senior developer, my code may be starting to gray around the edges, but it's still as sharp as ever."
+  avatar      : "/assets/images/avatar.jpeg"
+  links:
+    - label: "Email"
+      icon: "fa fa-envelope"
+      url: "mailto:contact@rafaltruszkowski.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/rafal-truszkowski/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/rafal_waffle"
