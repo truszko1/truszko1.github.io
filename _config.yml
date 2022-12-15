@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
     CodeCraft is a personal blog where I share my thoughts and insights on the world of software engineering. I explore the latest trends and developments in the field, offering my perspectives on the challenges and opportunities that lie ahead. Join me on my journey as I delve into the world of code and software development, and together let's learn, grow, and build a better future for software engineering"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "rafaltruszkowski.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rafaltruszkowski.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -68,3 +68,9 @@ defaults:
       comments: true
       share: true
       related: true
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-K64LF9T353"
+    anonymize_ip: false # default
