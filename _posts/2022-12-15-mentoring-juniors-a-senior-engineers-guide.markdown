@@ -6,10 +6,10 @@ categories: career
 author: Billy Rick
 excerpt: "Mentoring Junior Software Engineers: Tips for Senior Engineers"
 header:
-  overlay_image: /assets/images/team-2.jpg
+  overlay_image: /assets/images/team-3.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-og_image: /assets/images/team-2.jpg
+og_image: /assets/images/team-3.jpg
 ---
 As a senior software engineer, it is your prerogative and responsibility to provide mentorship and guidance to the junior members of your team. As the future of the industry, it is crucial that junior software engineers receive the support and development they need in order to thrive and succeed. Without proper mentorship and coaching, junior software engineers may struggle to learn and grow, which can have a negative impact on the team and the organization as a whole. Thry might end up like that one senior engineer who is still trying to figure out how to use git. (Don't be that engineer!)
 
