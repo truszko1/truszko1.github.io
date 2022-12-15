@@ -75,4 +75,4 @@ analytics:
     tracking_id: "G-K64LF9T353"
     anonymize_ip: false # default'
 
-permalink: /:categories/:year/:day/:title:output_ext
+permalink: /:categories/:year-:month-:day/:title:output_ext
