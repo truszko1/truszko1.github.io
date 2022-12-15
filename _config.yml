@@ -73,4 +73,6 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-K64LF9T353"
-    anonymize_ip: false # default
+    anonymize_ip: false # default'
+
+permalink: /:categories/:year/:day/:title:output_ext
