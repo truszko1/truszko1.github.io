@@ -7,9 +7,8 @@ author: Rafal Truszkowski
 excerpt: "The /etc/hosts file is a configuration file that maps hostnames to specific IP addresses. It can be used to override DNS resolution, but has limitations such as not being able to resolve subdomains or handle dynamic IP addresses."
 header:
   overlay_image: /assets/images/network.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-og_image: /assets/images/network.jpg
 ---
 The `/etc/hosts` file is a simple text file that maps hostnames to IP addresses, and it can be a valuable tool for local development. In this post, we'll take a closer look at what the `/etc/hosts` file is, how it works, and how you can use it to streamline your workflow and improve your productivity as you.
 
