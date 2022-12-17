@@ -25,7 +25,7 @@ One tool you can use to gather this information is the Chrome DevTools Network p
 
 Once you've identified the problem, the next step is to check the server.
 
-Overloaded server: If the server is receiving too many requests at once, it may not be able to handle them all in a timely manner.
+If the server is receiving too many requests at once, it may not be able to handle them all in a timely manner.
 Poorly optimized database: If the database is poorly optimized, it may take longer to retrieve data from it.
 Slow code: If the code that powers the website is poorly written or inefficient, it may take longer to execute.
 To check the server, you can use tools like the Unix command top or htop to see how much CPU and memory the server is using. You can also use tools like mysqltuner or mariadbtuner to optimize the database. If you find that the server is the problem, you may need to upgrade the hardware or optimize the code to improve performance.
@@ -34,7 +34,7 @@ To check the server, you can use tools like the Unix command top or htop to see 
 
 If the server and network are not the problem, the next step is to check the code.
 
-Blocking scripts: If the website has blocking scripts, such as blocking JavaScript or blocking CSS, it will prevent the page from rendering until the scripts have finished executing. This can cause the website to appear slow to the user.
+If the website has blocking scripts, such as blocking JavaScript or blocking CSS, it will prevent the page from rendering until the scripts have finished executing. This can cause the website to appear slow to the user.
 Unminified code: If the website has unminified code, it will be larger and take longer to download and execute. This can also cause the website to appear slow to the user.
 Poorly optimized code: If the code on the website is poorly written or inefficient, it may take longer to execute and cause performance issues.
 To check the code, you can use tools like the Chrome DevTools Audits panel to see if there are any issues with the code on the website. You can also use tools like JSMin or cssnano to minify the code and reduce the size of the website. If you find that the code is the problem, you may need to optimize the code or consider using a code splitting technique to improve performance.
@@ -43,7 +43,7 @@ To check the code, you can use tools like the Chrome DevTools Audits panel to se
 
 If the server, network, and code are not the problem, the next step is to check the content.
 
-Too much content: If the website has a lot of content, it may take longer to download and render. This can cause the website to appear slow to the user.
+If the website has a lot of content, it may take longer to download and render. This can cause the website to appear slow to the user.
 Poorly optimized images: If the images on the website are large and not optimized, they will take longer to download and cause performance issues.
 External resources: If the website is relying on external resources, such as third-party APIs or fonts, it may be slowed down by those resources.
 To check the content, you can use tools like the Chrome DevTools Network panel to see how long it takes for the content to load and identify any bottlenecks. You can also use tools like ImageOptim or Kraken.io to optimize the images on the website and reduce the size of the website. If you find that the content is the problem, you may need to optimize the images or consider using a content delivery network (CDN) to improve performance.
