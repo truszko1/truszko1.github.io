@@ -48,6 +48,6 @@ Poorly optimized images: If the images on the website are large and not optimize
 External resources: If the website is relying on external resources, such as third-party APIs or fonts, it may be slowed down by those resources.
 To check the content, you can use tools like the Chrome DevTools Network panel to see how long it takes for the content to load and identify any bottlenecks. You can also use tools like ImageOptim or Kraken.io to optimize the images on the website and reduce the size of the website. If you find that the content is the problem, you may need to optimize the images or consider using a content delivery network (CDN) to improve performance.
 
-Conclusion:
+### Conclusion:
 
 Debugging a slow website can be a challenging task, but with the right tools and strategies, it's possible to identify and fix the problem. By analyzing the server, network, code, and content, you can pinpoint the cause of the slowdown and take the necessary steps to improve performance. Whether it's optimizing the database, reducing the size of the website, or using a CDN, there are many ways to speed up a slow website. With patience and persistence, you can help your client get the fast and efficient website they deserve.
