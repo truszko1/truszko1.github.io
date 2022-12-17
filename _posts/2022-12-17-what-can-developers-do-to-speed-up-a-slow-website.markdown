@@ -23,7 +23,7 @@ One tool you can use to gather this information is the Chrome DevTools Network p
 
 ### Check the Server
 
-Once you've identified the problem, the next step is to check the server. There could be a number of reasons why the server is slow, including:
+Once you've identified the problem, the next step is to check the server.
 
 Overloaded server: If the server is receiving too many requests at once, it may not be able to handle them all in a timely manner.
 Poorly optimized database: If the database is poorly optimized, it may take longer to retrieve data from it.
@@ -32,7 +32,7 @@ To check the server, you can use tools like the Unix command top or htop to see 
 
 ### Check the Code
 
-If the server and network are not the problem, the next step is to check the code. There could be a number of reasons why the code is causing performance issues, including:
+If the server and network are not the problem, the next step is to check the code.
 
 Blocking scripts: If the website has blocking scripts, such as blocking JavaScript or blocking CSS, it will prevent the page from rendering until the scripts have finished executing. This can cause the website to appear slow to the user.
 Unminified code: If the website has unminified code, it will be larger and take longer to download and execute. This can also cause the website to appear slow to the user.
@@ -41,7 +41,7 @@ To check the code, you can use tools like the Chrome DevTools Audits panel to se
 
 ### Check the Content
 
-If the server, network, and code are not the problem, the next step is to check the content. There could be a number of reasons why the content is causing performance issues, including:
+If the server, network, and code are not the problem, the next step is to check the content.
 
 Too much content: If the website has a lot of content, it may take longer to download and render. This can cause the website to appear slow to the user.
 Poorly optimized images: If the images on the website are large and not optimized, they will take longer to download and cause performance issues.
