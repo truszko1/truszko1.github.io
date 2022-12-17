@@ -76,3 +76,5 @@ analytics:
     anonymize_ip: false # default'
 
 permalink: /:categories/:year-:month-:day/:title
+
+comments: true
