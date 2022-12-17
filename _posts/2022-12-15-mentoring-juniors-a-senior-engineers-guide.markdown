@@ -3,7 +3,7 @@ layout: posts
 title:  "Mentoring Juniors: A Senior Engineer's Guide"
 date:   2022-12-15 00:42:00 -0600
 categories: career
-author: Billy Rick
+author: Rafal Truszkowski
 excerpt: "Mentoring Junior Software Engineers: Tips for Senior Engineers"
 header:
   overlay_image: /assets/images/team-3.jpg

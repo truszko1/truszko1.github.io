@@ -1,9 +1,9 @@
 ---
 layout: posts
 title:  "When is it Time to Embrace a New Language or Framework?"
-date:   2022-12-15 00:42:00 -0600
+date:   2022-12-16 16:12:00 -0600
 categories: career
-author: Billy Rick
+author: Rafal Truszkowski
 excerpt: "Software developers should carefully consider the benefits and costs of learning a new language or framework based on opportunities, personal growth, staying relevant, or a desire for change."
 header:
   overlay_image: /assets/images/snow-mountain.jpg
