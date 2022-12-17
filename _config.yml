@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rafaltruszkowski.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-remote_theme: "truszko1/minimal-mistakes"
+remote_theme: "truszko1/minimal-mistakes@1.1"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
@@ -77,4 +77,7 @@ analytics:
 
 permalink: /:categories/:year-:month-:day/:title
 
-comments: true
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "codecraft-1"
