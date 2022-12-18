@@ -4,7 +4,7 @@ title:  "Mentoring Juniors: A Senior Engineer's Guide"
 date:   2022-12-15 00:42:00 -0600
 categories: career
 author: Rafal Truszkowski
-excerpt: "As a senior software engineer, you can mentor and coach junior members of your team by providing regular feedback and guidance, being available and approachable, and encouraging a culture of inquiry. To help junior software engineers learn and grow in their careers, you should also be patient and understanding, and provide opportunities for growth and learning."
+excerpt: "Mentor junior team members by providing feedback, guidance, and opportunities for learning. Encourage a culture of inquiry and be patient and understanding. Basically, be the Yoda to their Luke Skywalker."
 header:
   overlay_image: /assets/images/team-3.jpg
   overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background

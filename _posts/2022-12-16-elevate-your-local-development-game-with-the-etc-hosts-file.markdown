@@ -4,7 +4,7 @@ title:  "Elevate your local development game with the `/etc/hosts` file"
 date:   2022-12-16 23:00:00 -0600
 categories: tools
 author: Rafal Truszkowski
-excerpt: "The /etc/hosts file is a configuration file that maps hostnames to specific IP addresses. It can be used to override DNS resolution, but has limitations such as not being able to resolve subdomains or handle dynamic IP addresses."
+excerpt: "The /etc/hosts file is like a secret club that only your computer can join to find websites. Just don't tell anyone about the weird rules or it might get kicked out."
 header:
   overlay_image: /assets/images/network.jpg
   overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background

@@ -4,7 +4,7 @@ title:  "Psych Safety 101: How to Keep Your Software Dev Team Sane"
 date:   2022-12-17 20:12:33 -0600
 categories: teamwork
 author: Rafal Truszkowski
-excerpt: "Psychological safety is crucial for successful software development teams because it allows team members to speak up and share ideas without fear of negative consequences, leading to better problem-solving and decision-making. But have you ever considered what might happen if your team lacks psychological safety? Could it lead to a toxic work environment where your team turns into a group of mute, unproductive robots?"
+excerpt: "Without psychological safety, software development teams can turn into a toxic dumpster fire. It's like trying to build a house with a bunch of contractors who are all afraid to admit they don't know how to use a hammer."
 header:
   overlay_image: /assets/images/charts.jpg
   overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
