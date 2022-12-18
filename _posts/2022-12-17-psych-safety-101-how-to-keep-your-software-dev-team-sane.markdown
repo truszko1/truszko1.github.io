@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Psych Safety 101: How to Keep Your Software Dev Team Sane?"
+title:  "Psych Safety 101: How to Keep Your Software Dev Team Sane"
 date:   2022-12-17 20:12:33 -0600
 categories: teamwork
 author: Rafal Truszkowski
