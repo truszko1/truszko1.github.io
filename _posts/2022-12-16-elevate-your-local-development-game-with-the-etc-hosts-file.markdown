@@ -9,15 +9,16 @@ header:
   overlay_image: /assets/images/network.jpg
   overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+classes: wide
 ---
 The `/etc/hosts` file is a simple text file that maps hostnames to IP addresses, and it can be a valuable tool for local development. In this post, we'll take a closer look at what the `/etc/hosts` file is, how it works, and how you can use it to streamline your workflow and improve your productivity as you.
 
-### What is the `/etc/hosts` file?
+## What is the `/etc/hosts` file?
 Located in the root directory on MacOS and Linux, or in the C:\Windows\System32\drivers\etc directory on Windows, the `/etc/hosts` file is a simple text file that maps hostnames to IP addresses. When you access a website or other network resource, your computer's operating system uses the `/etc/hosts` file to resolve the hostname to the corresponding IP address.
 
 For example, let's say you want to access a website located at `http://example.com`. Your computer will first check the `/etc/hosts` file for an entry for `example.com`. If it finds one, it will use the specified IP address to access the site. If it does not find an entry for `example.com`, it will use the DNS (Domain Name System) to resolve the hostname to an IP address.
 
-### How can the `/etc/hosts` file help with local development?
+## How can the `/etc/hosts` file help with local development?
 As you, you may have encountered situations where you need to test your code on a local server before deploying it to the production environment. The `/etc/hosts` file can be a useful tool for this purpose by allowing you to override the DNS settings for a particular domain and force your computer to resolve the domain to a specific IP address.
 
 For example, let's say you want to test a website located at `http://example.com`. You can add the following entry to your `/etc/hosts` file:
@@ -30,7 +31,7 @@ This tells your computer to resolve the domain `example.com` to the localhost IP
 
 Using the `/etc/hosts` file for local development can save you time and effort in the development process by allowing you to test your code in a real-world environment without affecting the live version of your site. It can also be useful in situations where you need to test a site that is not yet live or is only accessible from certain IP addresses, as we'll discuss in the next section.
 
-### Other use cases for the `/etc/hosts` file
+## Other use cases for the `/etc/hosts` file
 In addition to allowing you to test your code on a local server before deploying it to production, the `/etc/hosts` file can also be useful in other situations. Here are a few examples of how you might use the `/etc/hosts` file:
 
 - Testing a site that is not yet live: If you are working on a new website that is currently in development and not yet accessible to the public, you can use the `/etc/hosts` file to resolve the domain to your local IP address, allowing you to test the site on your own machine before it goes live. This can be especially useful if you are working with a team and need to test and collaborate on the site before it is ready for public release.
@@ -45,7 +46,7 @@ In addition to allowing you to test your code on a local server before deploying
 
 This tells your computer to resolve the domain `example.com` to the non-existent IP address `0.0.0.0`, effectively blocking access to the site.
 
-### Limitations of the ``/etc/hosts`` file
+## Limitations of the ``/etc/hosts`` file
 While the `/etc/hosts` file can be a convenient way to test your code on a local server, it does have some limitations.
 
 1. Lack of wildcard support: The `/etc/hosts` file does not support wildcard entries, which means that you cannot use a single entry to map all subdomains of a domain to a specific IP address. This can be a problem if you want to test a website using multiple subdomains and doesn't want to have to manually add an entry for each subdomain to the `/etc/hosts` file.
@@ -68,5 +69,5 @@ While the `/etc/hosts` file can be a convenient way to test your code on a local
 
 If you need a more flexible solution, you may want to consider using a local DNS server like dnsmasq or setting up virtual hosts using a tool like nginx or Apache. These options allow you to test multiple sites on the same server using different domain names, which can be more convenient for local development.
 
-### Conclusion
+## Conclusion
 The `/etc/hosts` file is a simple but powerful tool for local development that can save you time and effort in the development process. Whether you're working on a personal project or a large-scale application, the `/etc/hosts` file is worth considering as a way to streamline your workflow and improve your productivity. Whether you need to test your code on a local server before deploying it to production, test a site that is not yet live, or access a site that is only accessible from certain IP addresses, the `/etc/hosts` file can help you get the job done.

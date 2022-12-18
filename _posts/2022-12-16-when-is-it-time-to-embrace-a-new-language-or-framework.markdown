@@ -9,6 +9,7 @@ header:
   overlay_image: /assets/images/snow-mountain.jpg
   overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+classes: wide
 ---
 We are constantly bombarded with the latest and greatest technologies, languages, and frameworks. It's like trying to sip from a fire hose - there's just no way to keep up with everything that's being thrown our way. And let's be real, learning a new language or framework is about as appealing as doing your taxes. It's tedious, time-consuming, and often feels like a huge waste of time. But at the same time, we also know that in order to stay relevant and valuable in our field, we must continuously learn and grow our skillset. So, when is it worth it for a web developer to finally bite the bullet and tackle a new language or framework?
 
@@ -18,19 +19,19 @@ On the flip side, it's also important to consider the potential costs of learnin
 
 So, how do you know when it's the right time to learn something new? Here are a few potential scenarios:
 
-### "Opportunity Knocks (But You're Too Busy Playing Fortnite)"
+## "Opportunity Knocks (But You're Too Busy Playing Fortnite)"
 
 Sometimes, the opportunity to learn a new language or framework presents itself in the form of a new job or project. If you're offered a position that requires a certain technology that you're not familiar with, it may be worth it to invest the time and effort to learn it. Similarly, if you're approached with a project that requires a specific technology, it may be worth it to invest the time and effort to learn it in order to take on the project and expand your portfolio. Just don't let your Fortnite addiction get in the way of seizing these opportunities.
 
-### "The Grass is Always Greener (Unless it's JavaScript)"
+## "The Grass is Always Greener (Unless it's JavaScript)"
 
 We've all been there: you're working with a certain technology and you start to feel like there must be something better out there. Maybe you're tired of fighting with a certain framework or you feel like you're hitting a ceiling with your current language. In these cases, it may be worth it to explore other options and see if there's something else out there that could potentially make your life as a developer easier or more enjoyable. Just be sure to do your research and make sure you fully understand the trade-offs before making the switch.
 
-### "Staying Relevant (Or Just Pretending to be Cool)"
+## "Staying Relevant (Or Just Pretending to be Cool)"
 
 In the fast-paced world of web development, it's important to stay up-to-date on the latest trends and technologies. If you notice that a certain language or framework is gaining traction in the industry or is being heavily utilized by companies you admire, it may be worth it to invest in learning it. This will not only help you stay relevant and competitive in the job market, but it will also allow you to bring new skills and perspectives to the table when working on projects. Plus, it's always fun to impress your friends and colleagues with your newfound knowledge of the latest and greatest tools.
 
-### "Personal Growth (Or Just a Excuse to Procrastinate)"
+## "Personal Growth (Or Just a Excuse to Procrastinate)"
 
 Finally, sometimes we just want to learn something new for the sake of learning it. Maybe you're a self-proclaimed tech enthusiast who just can't resist the allure of a new language or framework. Or maybe you're just looking to expand your understanding of computer science concepts or broaden your horizons as a developer. Whatever the reason, it's important to keep in mind that personal growth and development are also valid reasons to invest in learning something new. Just be sure to use it as a way to actually improve yourself and not just as an excuse to procrastinate on your actual work. We all do it, but don't let it become a habit.
 
