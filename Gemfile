@@ -36,3 +36,4 @@ gem "webrick", "~> 1.7"
 
 gem 'jekyll-sitemap'
 gem "minimal-mistakes-jekyll"
+gem 'jekyll-redirect-from'
