@@ -9,6 +9,8 @@ header:
   overlay_image: /assets/images/snow-mountain.jpg
   overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+redirect_from:
+  - /career/2022-12-16/when-is-it-time-to-embrace-a-new-language-or-framework
 classes: wide
 ---
 We are constantly bombarded with the latest and greatest technologies, languages, and frameworks. It's like trying to sip from a fire hose - there's just no way to keep up with everything that's being thrown our way. And let's be real, learning a new language or framework is about as appealing as doing your taxes. It's tedious, time-consuming, and often feels like a huge waste of time. But at the same time, we also know that in order to stay relevant and valuable in our field, we must continuously learn and grow our skillset. So, when is it worth it for a web developer to finally bite the bullet and tackle a new language or framework?

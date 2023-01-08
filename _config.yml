@@ -69,6 +69,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
 
 analytics:
   provider: "google-gtag"
@@ -76,6 +77,6 @@ analytics:
     tracking_id: "G-K64LF9T353"
     anonymize_ip: false # default'
 
-permalink: /:categories/:year-:month-:day/:title
+permalink: /:title
 
 comments: true

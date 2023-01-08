@@ -10,6 +10,8 @@ header:
   overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
+redirect_from:
+  - /tools/2022-12-17/elevate-your-local-development-game-with-the-etc-hosts-file
 ---
 The `/etc/hosts` file is a simple text file that maps hostnames to IP addresses, and it can be a valuable tool for local development. In this post, we'll take a closer look at what the `/etc/hosts` file is, how it works, and how you can use it to streamline your workflow and improve your productivity as you.
 

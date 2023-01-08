@@ -10,6 +10,8 @@ header:
   overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
+redirect_from:
+  - /teamwork/2022-12-18/psych-safety-101-how-to-keep-your-software-dev-team-sane
 ---
 Psychological safety is an often overlooked, yet crucial element of successful software development teams. It refers to the belief that team members can speak up and share ideas without fear of negative consequences. In a software development team, psychological safety is important because it allows team members to openly communicate and collaborate, leading to better problem-solving, decision-making, and overall team performance.
 
