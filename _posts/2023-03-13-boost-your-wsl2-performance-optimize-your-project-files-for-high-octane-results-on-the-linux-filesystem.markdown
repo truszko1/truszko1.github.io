@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Rev Up Your WSL2 Performance: Move Your Project Files to the Linux Filesystem for High Octane Results"
+title:  "Boost Your WSL2 Performance: Optimize Your Project Files for High-Octane Results on the Linux Filesystem"
 date:   2023-03-13 10:12:33 -0600
 categories: tips
 author: Rafal Truszkowski
@@ -10,6 +10,8 @@ header:
   overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
+redirect_from:
+  - /docker
 ---
 As a developer working on Dockerized projects in Windows Subsystem for Linux 2 (WSL2), you may have encountered slow I/O performance when accessing files through the shared directory between Windows and WSL2. This can be frustrating, as it can slow down build times and application response times, and make it difficult to iterate quickly in your development workflow.
 
