@@ -1,10 +1,10 @@
 ---
 layout: posts
-title:  "Boost Your WSL2 Performance: Optimize Your Project Files for High-Octane Results on the Linux Filesystem"
+title:  "Improving Dockerized Projects in WSL2: Move Your Files to the Linux Filesystem for Faster I/O Performance"
 date:   2023-03-13 10:12:33 -0600
 categories: tips
 author: Rafal Truszkowski
-excerpt: "Need a Faster WSL2 Workflow? Move Your Project Files to the Linux Filesystem! In this post, we'll explore how the Linux filesystem can provide faster I/O performance, better support for Linux tools, and an overall more efficient development experience for technical web engineers working in WSL2."
+excerpt: "Do you struggle with slow I/O performance when developing Dockerized projects in Windows Subsystem for Linux 2 (WSL2)? Move your project files to the Linux filesystem and unlock faster I/O performance, better support for Linux tools and workflows, and a more streamlined development workflow."
 header:
   overlay_image: /assets/images/bottleneck.jpg
   overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
@@ -12,6 +12,7 @@ header:
 classes: wide
 redirect_from:
   - /docker
+  - /boost-your-wsl2-performance-optimize-your-project-files-for-high-octane-results-on-the-linux-filesystem
 ---
 As a developer working on Dockerized projects in Windows Subsystem for Linux 2 (WSL2), you may have encountered slow I/O performance when accessing files through the shared directory between Windows and WSL2. This can be frustrating, as it can slow down build times and application response times, and make it difficult to iterate quickly in your development workflow.
 
