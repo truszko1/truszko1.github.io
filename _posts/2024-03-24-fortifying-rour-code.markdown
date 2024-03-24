@@ -1,8 +1,7 @@
 ---
 layout: posts
 title:  "Fortifying Your Code: A Beginner's Guide to Web Security Essentials"
-date:   2024-03-24 00:42:00 -0600
-categories: tips
+date:   2024-03-24 14:42:00 -0600
 author: Rafal Truszkowski
 excerpt: "Unlock the essentials of web security with our beginner's guide. Discover key practices to protect your web applications from threats like XSS, SQL injection, and more, with practical tips for junior to mid-level developers."
 header:
@@ -15,10 +14,10 @@ Ah, the World Wide Web, a vast digital ocean where marvelous websites sail and s
 ## Understanding Web Security: The Basics
 Think of web security as the digital equivalent of a moat around a castle. It's all about creating barriers to protect your website from invaders who want to plunder your data. Common web vulnerabilities include cross-site scripting (XSS), SQL injection, and cross-site request forgery (CSRF), each a unique beast waiting for the right moment to strike. But understanding is the first step to combating these threats, and that's precisely what we're here to do.
 
-## HTTPS: The First Line of Defense
+## [HTTPS: The First Line of Defense]({{ site.baseurl }}https-the-first-line-of-defense-in-web-security)
 Remember the "S" in HTTPS stands for "secure". It's like sending your data through a secret tunnel instead of across an open field. HTTPS, powered by SSL/TLS certificates, encrypts information sent between the user's browser and your website, ensuring that sensitive data like login credentials and personal information remain confidential. Implementing HTTPS is like putting a lock on that secret tunnel, and in today's digital age, it's non-negotiable.
 
-## Secure Your Cookies: Preventing Session Hijacking
+## [Secure Your Cookies: Preventing Session Hijacking]({{ site.baseurl }}secure-your-cookies-advanced-strategies-to-thwart-session-hijacking)
 Cookies! Not the delicious kind, unfortunately, but the kind that web applications use to manage sessions and store user data. Securing these cookies is crucial to preventing session hijacking, where attackers steal a user's session cookie and masquerade as them. Setting cookies to HttpOnly and Secure helps ensure that these little data packets can only be sent over HTTPS and are not accessible via JavaScript, thus keeping them out of the hands of cyber villains.
 
 ## Cross-Site Scripting (XSS): Understanding and Prevention
@@ -50,4 +49,4 @@ Eager for more knowledge? Here are some resources to further your education in w
 
 Remember, in the world of web development, knowledge is not just power—it's protection.
 
-Keep learning, stay curious, and above all, code like a wizard in a world of muggles!
+_Keep learning, stay curious, and above all, code like a wizard in a world of muggles!_
