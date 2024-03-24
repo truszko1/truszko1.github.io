@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Improving Dockerized Projects in WSL2: Move Your Files to the Linux Filesystem for Faster I/O Performance"
-date:   2023-03-13 10:12:33 -0600
+date:   2024-03-24 00:42:00 -0600
 categories: tips
 author: Rafal Truszkowski
 excerpt: "Do you struggle with slow I/O performance when developing Dockerized projects in Windows Subsystem for Linux 2 (WSL2)? Move your project files to the Linux filesystem and unlock faster I/O performance, better support for Linux tools and workflows, and a more streamlined development workflow."

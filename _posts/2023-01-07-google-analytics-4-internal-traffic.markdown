@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Filtering Out Internal Traffic in Google Analytics 4: The Missing Piece"
-date:   2023-01-07 11:23:11 -0600
+date:   2024-03-24 00:42:00 -0600
 categories: tips
 author: Rafal Truszkowski
 excerpt: "If you're having trouble with your internal traffic filter in Google Analytics 4, don't worry! The solution may be as easy as manually activating the filter in the Admin panel."

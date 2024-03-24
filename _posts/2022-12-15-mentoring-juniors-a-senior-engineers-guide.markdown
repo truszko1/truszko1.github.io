@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Mentoring Juniors: A Senior Engineer's Guide"
-date:   2022-12-15 00:42:00 -0600
+date:   2024-03-24 00:42:00 -0600
 categories: career
 author: Rafal Truszkowski
 excerpt: "Mentor junior team members by providing feedback, guidance, and opportunities for learning. Encourage a culture of inquiry and be patient and understanding. Basically, be the Yoda to their Luke Skywalker."

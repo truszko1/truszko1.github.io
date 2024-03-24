@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Psych Safety 101: How to Keep Your Software Dev Team Sane"
-date:   2022-12-17 20:12:33 -0600
+date:   2024-03-24 00:42:00 -0600
 categories: teamwork
 author: Rafal Truszkowski
 excerpt: "Without psychological safety, software development teams can turn into a toxic dumpster fire. It's like trying to build a house with a bunch of contractors who are all afraid to admit they don't know how to use a hammer."

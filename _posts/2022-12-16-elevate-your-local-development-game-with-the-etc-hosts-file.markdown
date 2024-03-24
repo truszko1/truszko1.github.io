@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Elevate your local development game with the `/etc/hosts` file"
-date:   2022-12-16 23:00:00 -0600
+date:   2024-03-24 00:42:00 -0600
 categories: tools
 author: Rafal Truszkowski
 excerpt: "The /etc/hosts file is like a secret club that only your computer can join to find websites. Just don't tell anyone about the weird rules or it might get kicked out."

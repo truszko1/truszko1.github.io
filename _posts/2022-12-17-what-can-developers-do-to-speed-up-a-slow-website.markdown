@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "What Can Developers Do to Speed Up a Slow Website?"
-date:   2022-12-17 16:35:12 -0600
+date:   2024-03-24 00:42:00 -0600
 categories: tips
 author: Rafal Truszkowski
 excerpt: "Are you struggling to fix a slow website? This post offers practical tips and techniques for developers to diagnose and solve performance issues. By analyzing the server, network, code, and content, you can find the root cause of the slowdown and take action to improve speed."

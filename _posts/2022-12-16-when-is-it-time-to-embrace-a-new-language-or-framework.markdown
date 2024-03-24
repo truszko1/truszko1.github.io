@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "When is it Time to Embrace a New Language or Framework?"
-date:   2022-12-16 16:12:00 -0600
+date:   2024-03-24 00:42:00 -0600
 categories: career
 author: Rafal Truszkowski
 excerpt: "Should I learn a new programming language? Hmm, let's see... job opportunities, personal growth, staying relevant, avoiding boredom. All valid reasons. Or you could just do it because it's like a puzzle and puzzles are fun. Your call."
