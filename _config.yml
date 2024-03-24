@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "CodeCraft: Authored by Human, Refined by AI"
+title: "CodeCraft:<br>Authored by Human, Refined by AI"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   "CodeCraft: Where cutting-edge AI meets my personal journey through the ever-evolving world of software engineering. This blog is my platform for sharing the latest trends, insights, and reflections on navigating the complexities of coding and development. Each post, while initially AI-powered, is carefully crafted and finalized with a human touch, reflecting a blend of technological innovation and seasoned expertise. Join me in exploring the challenges and triumphs of software engineering as we learn, grow, and innovate together."
