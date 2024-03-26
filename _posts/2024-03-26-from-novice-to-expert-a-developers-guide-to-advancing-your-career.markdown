@@ -44,13 +44,16 @@ Embarking on the journey of a software developer is akin to setting sail in vast
 **Peer Reviews**: Engage in code reviews with peers. This not only helps in catching bugs early but also fosters a culture of learning and knowledge sharing. It's about growing together as a community of developers.
 
 ## Tool Proficiency
+
 **Integrated Development Environments (IDEs)**: Familiarize yourself with IDEs like Visual Studio Code, IntelliJ IDEA, or PyCharm. These are not just editors but your laboratories for crafting, testing, and debugging code.
 
 **Debugging**: Learn to use debugging tools within your IDE and practice the art of troubleshooting. Understanding how to systematically isolate and identify issues in your code is a critical skill.
 
 ## Learning Resources
 **Online Courses**: Platforms like Coursera, Udemy, and edX offer courses on almost any programming language and development technique you're interested in.
+
 **Books**: "Clean Code" by Robert C. Martin and "The Pragmatic Programmer" by Andrew Hunt and David Thomas are seminal reads.
+
 **Communities**: Join developer forums like Stack Overflow, Reddit’s r/learnprogramming, or find a local Meetup group. Engaging with a community can provide support, motivation, and insights.
 
 ## Personal Project Importance
