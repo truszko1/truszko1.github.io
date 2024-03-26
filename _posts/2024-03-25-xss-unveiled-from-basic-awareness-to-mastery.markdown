@@ -11,7 +11,7 @@ classes: wide
 ---
 # Introduction
 
-In the vast expanse of the internet, where innovation and creativity meet at the crossroads of technology, there lies a lurking shadow that threatens to undermine the very fabric of our digital existence: web security vulnerabilities. Among these, Cross-Site Scripting, or XSS, stands as a formidable foe, weaving its way through insufficiently protected websites to wreak havoc on unsuspecting users and organizations alike. The essence of web security is not just in defending data but in safeguarding the trust and integrity of digital interactions that shape our world.
+In the vast expanse of the internet, where innovation and creativity meet at the crossroads of technology, there lies a lurking shadow that threatens to undermine the very fabric of our digital existence: [web security]({{ site.baseurl }}fortifying-rour-code) vulnerabilities. Among these, Cross-Site Scripting, or XSS, stands as a formidable foe, weaving its way through insufficiently protected websites to wreak havoc on unsuspecting users and organizations alike. The essence of web security is not just in defending data but in safeguarding the trust and integrity of digital interactions that shape our world.
 
 At its core, XSS is a web security vulnerability that allows attackers to inject malicious scripts into content that other users see and interact with. It's like someone tampering with the water supply of a city—not only can they contaminate the water, but they can also control the flow, affecting everything from what the residents drink to how they live their daily lives. This metaphor underscores the pervasive and invasive nature of XSS, highlighting the importance of understanding and mitigating it.
 

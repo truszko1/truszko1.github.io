@@ -20,7 +20,7 @@ Remember the "S" in HTTPS stands for "secure". It's like sending your data throu
 ## [Secure Your Cookies: Preventing Session Hijacking]({{ site.baseurl }}secure-your-cookies-advanced-strategies-to-thwart-session-hijacking)
 Cookies! Not the delicious kind, unfortunately, but the kind that web applications use to manage sessions and store user data. Securing these cookies is crucial to preventing session hijacking, where attackers steal a user's session cookie and masquerade as them. Setting cookies to HttpOnly and Secure helps ensure that these little data packets can only be sent over HTTPS and are not accessible via JavaScript, thus keeping them out of the hands of cyber villains.
 
-## Cross-Site Scripting (XSS): Understanding and Prevention
+## [Cross-Site Scripting (XSS): Understanding and Prevention]({{ site.baseurl }}xss-unveiled-from-basic-awareness-to-mastery)
 XSS attacks involve injecting malicious scripts into web pages viewed by other users, turning innocent websites into Trojan horses. The key to prevention? Sanitize user input, implement Content Security Policy (CSP), and always, always validate and escape user-generated content. Think of it as installing a top-notch security system for your website.
 
 ## SQL Injection: Keep Your Database Safe
