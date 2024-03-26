@@ -7,7 +7,7 @@ author: Rafal Truszkowski
 excerpt: "The /etc/hosts file is like a secret club that only your computer can join to find websites. Just don't tell anyone about the weird rules or it might get kicked out."
 header:
   overlay_image: /assets/images/network.jpg
-  overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 redirect_from:

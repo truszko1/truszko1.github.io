@@ -7,7 +7,7 @@ author: Rafal Truszkowski
 excerpt: "If you're having trouble with your internal traffic filter in Google Analytics 4, don't worry! The solution may be as easy as manually activating the filter in the Admin panel."
 header:
   overlay_image: /assets/images/magic.jpg
-  overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 ---

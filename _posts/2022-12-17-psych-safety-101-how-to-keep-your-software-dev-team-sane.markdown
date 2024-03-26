@@ -7,7 +7,7 @@ author: Rafal Truszkowski
 excerpt: "Without psychological safety, software development teams can turn into a toxic dumpster fire. It's like trying to build a house with a bunch of contractors who are all afraid to admit they don't know how to use a hammer."
 header:
   overlay_image: /assets/images/teamwork.jpg
-  overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 redirect_from:

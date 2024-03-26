@@ -7,7 +7,7 @@ author: Rafal Truszkowski
 excerpt: "Mentor junior team members by providing feedback, guidance, and opportunities for learning. Encourage a culture of inquiry and be patient and understanding. Basically, be the Yoda to their Luke Skywalker."
 header:
   overlay_image: /assets/images/team-3.jpg
-  overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 redirect_from:
   - /career/2022/12/15/mentoring-juniors-a-senior-engineers-guide.html
