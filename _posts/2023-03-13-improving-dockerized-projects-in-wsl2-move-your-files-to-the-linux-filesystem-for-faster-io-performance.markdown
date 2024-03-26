@@ -7,7 +7,7 @@ author: Rafal Truszkowski
 excerpt: "Do you struggle with slow I/O performance when developing Dockerized projects in Windows Subsystem for Linux 2 (WSL2)? Move your project files to the Linux filesystem and unlock faster I/O performance, better support for Linux tools and workflows, and a more streamlined development workflow."
 header:
   overlay_image: /assets/images/bottleneck.jpg
-  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.75 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 redirect_from:

@@ -6,7 +6,7 @@ author: Rafal Truszkowski
 excerpt: "Dive into the world of web security with our comprehensive guide on securing cookies against session hijacking. Tailored for mid to senior-level engineers, this post covers advanced techniques, best practices, and the latest strategies to protect your web applications."
 header:
   overlay_image: /assets/images/fortifying-rour-code.png
-  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.75 # same as adding an opacity of 0.5 to a black background
 classes: wide
 ---
 Welcome, guardians of the digital realm! Today, we venture deep into the fortress of [web security]({{ site.baseurl }}fortifying-rour-code), focusing our gaze upon the seemingly humble, yet critically important subject: cookies. Not the kind that crumbles, but the kind that holds the key to user sessions in web applications. Our quest? To master the art of securing these cookies against the dark art known as session hijacking. So, sharpen your minds, and let's decode the secrets of secure cookies.

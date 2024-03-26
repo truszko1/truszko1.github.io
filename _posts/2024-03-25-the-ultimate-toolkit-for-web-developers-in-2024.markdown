@@ -6,7 +6,7 @@ author: Rafal Truszkowski
 excerpt: "Elevate your web development skills with an in-depth look at the tools that are shaping the industry. Whether you're starting out or an experienced developer, discover how technologies like WebAssembly and headless CMS can revolutionize the way you work."
 header:
   overlay_image: /assets/images/web-toolkit.png
-  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.75 # same as adding an opacity of 0.5 to a black background
 classes: wide
 ---
 # Introduction

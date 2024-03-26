@@ -6,7 +6,7 @@ author: Rafal Truszkowski
 excerpt: "Unlock the essentials of web security with our beginner's guide. Discover key practices to protect your web applications from threats like XSS, SQL injection, and more, with practical tips for junior to mid-level developers."
 header:
   overlay_image: /assets/images/fortifying-rour-code.png
-  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.75 # same as adding an opacity of 0.5 to a black background
 classes: wide
 ---
 Ah, the World Wide Web, a vast digital ocean where marvelous websites sail and sinister vulnerabilities lurk beneath the surface. As a web developer, whether you're just starting out or have been in the game for a little while, understanding the basics of web security isn't just a nice-to-have; it's an absolute must. Why? Because the internet is teeming with cyber threats ready to exploit any weakness in your code. But fear not! This guide is here to arm you with the knowledge and tools to shield your web applications from the dark forces of the internet.

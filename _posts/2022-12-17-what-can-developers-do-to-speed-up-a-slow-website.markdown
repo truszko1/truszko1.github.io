@@ -7,7 +7,7 @@ author: Rafal Truszkowski
 excerpt: "Are you struggling to fix a slow website? This post offers practical tips and techniques for developers to diagnose and solve performance issues. By analyzing the server, network, code, and content, you can find the root cause of the slowdown and take action to improve speed."
 header:
   overlay_image: /assets/images/charts.jpg
-  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.75 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 classes: wide
 redirect_from:

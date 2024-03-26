@@ -6,7 +6,7 @@ author: Rafal Truszkowski
 excerpt: "Unravel the complexities of XSS with a detailed exploration of its mechanisms, impact, and mitigation strategies. Designed for web developers seeking to enhance their security acumen and protect user data."
 header:
   overlay_image: /assets/images/xss.png
-  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.75 # same as adding an opacity of 0.5 to a black background
 classes: wide
 ---
 # Introduction

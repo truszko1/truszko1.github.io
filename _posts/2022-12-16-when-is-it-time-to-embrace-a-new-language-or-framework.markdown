@@ -7,7 +7,7 @@ author: Rafal Truszkowski
 excerpt: "Should I learn a new programming language? Hmm, let's see... job opportunities, personal growth, staying relevant, avoiding boredom. All valid reasons. Or you could just do it because it's like a puzzle and puzzles are fun. Your call."
 header:
   overlay_image: /assets/images/snow-mountain.jpg
-  overlay_filter: 0.85 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.75 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 redirect_from:
   - /career/2022-12-16/when-is-it-time-to-embrace-a-new-language-or-framework
