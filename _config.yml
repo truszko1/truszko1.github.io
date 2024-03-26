@@ -74,7 +74,7 @@ defaults:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-KB298VX0SV"
+    tracking_id: "G-K64LF9T353"
     anonymize_ip: false # default'
 
 permalink: /:title
