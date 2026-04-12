@@ -21,7 +21,7 @@ export default defineConfig({
 
   fonts: [
     {
-      name: 'Fraunces',
+      name: 'Crimson Text',
       cssVariable: '--font-fraunces',
       provider: fontProviders.google(),
       weights: ['400 700'],
