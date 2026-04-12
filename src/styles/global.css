@@ -1,0 +1,96 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: var(--font-fraunces), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-ink: #1a1a1a;
+  --color-ink-muted: #6b6b6b;
+  --color-paper: #fafaf7;
+  --color-rule: #e6e3dc;
+
+  --color-ink-dark: #e8e6e1;
+  --color-ink-muted-dark: #9a9892;
+  --color-paper-dark: #0f0f0e;
+  --color-rule-dark: #26251f;
+}
+
+html {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-paper);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html.dark {
+  color: var(--color-ink-dark);
+  background: var(--color-paper-dark);
+}
+
+.prose {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  max-width: 42rem;
+  color: var(--color-ink);
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+.prose pre {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.prose a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-rule);
+  text-underline-offset: 3px;
+}
+
+.prose a:hover {
+  text-decoration-color: currentColor;
+}
+
+.dark .prose {
+  color: var(--color-ink-dark);
+}
+
+.dark .prose a {
+  color: var(--color-ink-dark);
+  text-decoration-color: var(--color-rule-dark);
+}
+
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose h4,
+.dark .prose strong {
+  color: var(--color-ink-dark);
+}
+
+.dark .prose code,
+.dark .prose pre {
+  color: var(--color-ink-dark);
+  background: var(--color-rule-dark);
+}

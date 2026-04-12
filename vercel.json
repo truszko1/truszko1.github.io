@@ -1,0 +1,50 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/career/2022/12/15/mentoring-juniors-a-senior-engineers-guide.html",
+      "destination": "/mentoring-juniors-a-senior-engineers-guide",
+      "permanent": true
+    },
+    {
+      "source": "/career/2022-12-15/mentoring-juniors-a-senior-engineers-guide",
+      "destination": "/mentoring-juniors-a-senior-engineers-guide",
+      "permanent": true
+    },
+    {
+      "source": "/tools/2022-12-17/elevate-your-local-development-game-with-the-etc-hosts-file",
+      "destination": "/elevate-your-local-development-game-with-the-etc-hosts-file",
+      "permanent": true
+    },
+    {
+      "source": "/career/2022-12-16/when-is-it-time-to-embrace-a-new-language-or-framework",
+      "destination": "/when-is-it-time-to-embrace-a-new-language-or-framework",
+      "permanent": true
+    },
+    {
+      "source": "/teamwork/2022-12-18/psych-safety-101-how-to-keep-your-software-dev-team-sane",
+      "destination": "/psych-safety-101-how-to-keep-your-software-dev-team-sane",
+      "permanent": true
+    },
+    {
+      "source": "/career/2022-12-17/what-can-developers-do-to-speed-up-a-slow-website",
+      "destination": "/what-can-developers-do-to-speed-up-a-slow-website",
+      "permanent": true
+    },
+    {
+      "source": "/docker",
+      "destination": "/improving-dockerized-projects-in-wsl2-move-your-files-to-the-linux-filesystem-for-faster-io-performance",
+      "permanent": true
+    },
+    {
+      "source": "/boost-your-wsl2-performance-optimize-your-project-files-for-high-octane-results-on-the-linux-filesystem",
+      "destination": "/improving-dockerized-projects-in-wsl2-move-your-files-to-the-linux-filesystem-for-faster-io-performance",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
+      "permanent": true
+    }
+  ]
+}

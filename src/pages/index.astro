@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+
+<BaseLayout title="Rafał Truszkowski" description="Notes on engineering, mentorship, and whatever I'm figuring out.">
+  <div class="max-w-2xl mx-auto">
+    <ul class="space-y-10 list-none p-0">
+      {posts.map((post) => (
+        <li>
+          <a href={`/${post.id}`} class="group block no-underline">
+            <h2 class="font-serif text-2xl font-semibold leading-snug tracking-tight group-hover:underline decoration-1 underline-offset-4">
+              {post.data.title}
+            </h2>
+            <div class="mt-1 text-sm" style="color: var(--color-ink-muted);">
+              <time datetime={post.data.date.toISOString()}>
+                {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </time>
+            </div>
+            <p class="mt-3 leading-relaxed" style="color: var(--color-ink-muted);">
+              {post.data.excerpt}
+            </p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
+
+<style>
+  :global(html.dark) li div,
+  :global(html.dark) li p {
+    color: var(--color-ink-muted-dark) !important;
+  }
+</style>

@@ -1,0 +1,69 @@
+---
+import { Font } from 'astro:assets';
+import Analytics from '@vercel/analytics/astro';
+import SpeedInsights from '@vercel/speed-insights/astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Notes on engineering, mentorship, and whatever I'm figuring out." } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const isProd = import.meta.env.PROD;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical.href} />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="alternate" type="application/rss+xml" title="Rafał Truszkowski" href="/feed.xml" />
+
+    <Font cssVariable="--font-fraunces" preload />
+    <Font cssVariable="--font-inter" preload />
+    <Font cssVariable="--font-jetbrains" />
+
+    <script is:inline>
+      (function () {
+        try {
+          const stored = localStorage.getItem('theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'dark' || (!stored && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (_) {}
+      })();
+    </script>
+
+    {isProd && (
+      <>
+        <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-K64LF9T353"></script>
+        <script is:inline>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-K64LF9T353');
+        </script>
+      </>
+    )}
+
+    <Analytics />
+    <SpeedInsights />
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+    <main class="flex-1 px-6 py-12">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
