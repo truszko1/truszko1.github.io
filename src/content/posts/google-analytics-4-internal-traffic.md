@@ -13,7 +13,7 @@ I spent the better part of the day attempting to unravel the mystery, pouring ov
 
 Just when I was ready to tear out my hair in frustration, I noticed something I had completely overlooked: the status of my data filter was listed as 'pending.' In other words, my filter was not yet active and my internal traffic was still being tracked. I had simply missed a crucial step. By manually activating the data filter in the Admin panel, my internal traffic was finally filtered out and I was able to get a more accurate view of my website's performance. Hallelujah!
 
-![dfsda](/assets/images/ga4_data_filter.png)
+![GA4 internal traffic filter settings](/images/ga4_data_filter.png)
 
 So, if you're having trouble with internal traffic filtering on Google Analytics 4, here are a few tips to avoid the same pitfalls I encountered:
 
